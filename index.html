@@ -32,7 +32,57 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
-   
+
+    <style>
+        .r-p-8 {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .r-p-6 {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .r-p-8 {
+                padding-top: 8rem;
+                padding-bottom: 8rem;
+            }
+
+            .r-p-6 {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        .a-r-m {
+            display: block;
+        }
+
+        .a-r-d {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .a-r-m {
+                display: none;
+            }
+
+            .a-r-d {
+                display: block;
+            }
+        }
+
+        /* @media (min-width: 1200px) {
+            .responsive-padding {
+                padding: 40px;
+                
+            }
+        } */
+    </style>
+
+
 
 </head>
 
@@ -66,7 +116,8 @@
                         <a href="#contact_section" class="nav-item nav-link">Contact</a>
                     </div>
 
-                    <a href="contact_section" class="btn btn-brand py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    <a href="#contact_section"
+                        class="btn btn-brand py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
                 </div>
             </nav>
         </div>
@@ -74,7 +125,7 @@
 
 
     <!-- Hero Start -->
-    <div id="hero_section" class="container-fluid mt-0 py-6">
+    <div id="hero_section" class="container-fluid mt-0 r-p-8">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-7 col-md-12">
@@ -86,26 +137,70 @@
                         For Your Dream Event -->
                         Authentic <span class="text-brand">Home Cooked</span> Catering for Your Events
                     </h1>
-                    <a href="contact_section"
+                    <a href="#contact_section"
                         class="btn btn-brand border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Book
                         Now</a>
                     <!-- <a href="" class="btn btn-brand border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know
                         More</a> -->
                 </div>
                 <div class="col-lg-5 col-md-12">
-                    <img src="img/hero.png" class="img-fluid rounded animated zoomIn" alt="">
+                    <!-- <img src="img/foods/006.jpg" class="img-fluid rounded animated zoomIn" alt=""> -->
+                    <img src="https://img.freepik.com/free-photo/people-ramadan-celebration_23-2151344674.jpg?t=st=1733059449~exp=1733063049~hmac=89c5892480ef0adbfacc6f218a36422b8cadfca51340f73b2e8ea6b66194ee26&w=996"
+                        class="img-fluid rounded animated zoomIn" alt="">
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero End -->
 
+    <div id="about_section" class="container-fluid r-p-6 a-r-m">
+        <div class="container">
+            <div class="row g-3 align-items-center">
+
+                <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                    <small
+                    class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-brand rounded-pill px-4 py-1 mb-3">About
+                    Us</small>
+                    <h1 class="display-5 mb-4">A Passion for Home Cooked Excellence</h1>
+                    <img src="img/foods/006.jpg" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+
+                    <p class="mb-4">At Vagai food catering, we take pride in our commitment to serving delectable
+                        dishes that feel like a comforting home-cooked meal. Our culinary philosophy revolves around
+                        using fresh, high-quality ingredients while steering clear of artificial additives like
+                        ajinomoto. We believe in offering not just a catering service but an experience that resonates
+                        with the warmth and authenticity of home.</p>
+
+                    <div class="row g-4 text-dark mb-5">
+                        <div class="col-sm-6">
+                            <i class="fas fa-share text-brand me-2"></i>Fresh and Fast food Delivery
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fas fa-share text-brand me-2"></i>24/7 Customer Support
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fas fa-share text-brand me-2"></i>Easy Customization Options
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fas fa-share text-brand me-2"></i>Delicious Deals for Delicious Meals
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- About Satrt -->
-    <div id="about_section" class="container-fluid py-6">
+    <div id="about_section" class="container-fluid r-p-6 a-r-d">
         <div class="container">
             <div class="row g-5 align-items-center">
+
                 <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                    <!-- <small
+                    class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-brand rounded-pill px-4 py-1 mb-3">About
+                    Us</small> -->
                     <img src="img/foods/006.jpg" class="img-fluid rounded" alt="">
                 </div>
                 <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
@@ -141,9 +236,8 @@
     </div>
     <!-- About End -->
 
-
     <!-- Fact Start-->
-    <div class="container-fluid faqt py-6">
+    <div class=" faqt r-p-6">
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-7">
@@ -202,9 +296,8 @@
         </div>
     </div>
 
-
     <!-- Menu Section -->
-    <section id="menu_section" class="menu-section py-6 bg-light">
+    <section id="menu_section" class="menu-section  bg-light r-p-6">
         <div class="container">
             <!-- Section Header -->
             <div class="row mb-5">
@@ -217,22 +310,6 @@
 
             <!-- Menu Categories -->
             <div class="row g-4">
-                <!-- Appetizers -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="./img/menu/001.jpg?height=200&width=400" class="card-img-top" alt="Appetizers">
-                        <div class="card-body">
-                            <h3 class="card-title h4">Appetizers</h3>
-                            <p class="card-text">Choose from a variety of hot and cold starters:</p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check2-circle text-success me-2"></i>Finger Foods</li>
-                                <li><i class="bi bi-check2-circle text-success me-2"></i>Salads</li>
-                                <li><i class="bi bi-check2-circle text-success me-2"></i>Soups</li>
-                                <li><i class="bi bi-check2-circle text-success me-2"></i>Bruschetta</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Main Course -->
                 <div class="col-md-6 col-lg-4">
@@ -246,6 +323,23 @@
                                 <li><i class="bi bi-check2-circle text-success me-2"></i>Meat Dishes</li>
                                 <li><i class="bi bi-check2-circle text-success me-2"></i>Seafood</li>
                                 <li><i class="bi bi-check2-circle text-success me-2"></i>Pasta</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appetizers -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="./img/menu/001.jpg?height=200&width=400" class="card-img-top" alt="Appetizers">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Appetizers</h3>
+                            <p class="card-text">Choose from a variety of hot and cold starters:</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle text-success me-2"></i>Finger Foods</li>
+                                <li><i class="bi bi-check2-circle text-success me-2"></i>Salads</li>
+                                <li><i class="bi bi-check2-circle text-success me-2"></i>Soups</li>
+                                <li><i class="bi bi-check2-circle text-success me-2"></i>Bruschetta</li>
                             </ul>
                         </div>
                     </div>
@@ -307,7 +401,7 @@
     </section>
 
     <!-- why us -->
-    <section class="container py-6">
+    <section class="container r-p-6">
         <!-- Section Title -->
         <div class="text-center mb-5">
             <h1 class="display-4">Why Choose Us</h1>
@@ -368,7 +462,7 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="why_us_section" class="how-it-works py-6 bg-gradient">
+    <section id="why_us_section" class="how-it-works  bg-gradient r-p-6">
         <div class="container">
             <!-- Section Header -->
             <div class="row mb-5">
@@ -381,19 +475,19 @@
 
             <!-- Timeline Style Process -->
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-3">
                     <div class="p-3 border rounded shadow-sm">
                         <h4 class="fw-semibold">Step 1</h4>
                         <p>Contact us to share your event details and preferences.</p>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-3">
                     <div class="p-3 border rounded shadow-sm">
                         <h4 class="fw-semibold">Step 2</h4>
                         <p>Tell us about your favorite dishes or preferred cuisines.</p>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center mb-3">
                     <div class="p-3 border rounded shadow-sm">
                         <h4 class="fw-semibold">Step 3</h4>
                         <p>We craft a menu tailored to your preferences, ensuring every dish delights your guests.</p>
@@ -414,11 +508,8 @@
         </div>
     </section>
 
-
-
-
     <!-- Contact Start -->
-    <div id="contact_section" class="container-fluid contact py-3 wow bounceInUp" data-wow-delay="0.1s">
+    <div id="contact_section" class=" contact  wow bounceInUp r-p-6" data-wow-delay="0.1s">
         <div class="container">
             <div class="p-3 bg-light rounded contact-form">
                 <div class="row g-4">
@@ -485,9 +576,9 @@
     <!-- Contact End -->
 
     <!-- Location Start -->
-    <div id="contact_section" class="container-fluid contact py-3 wow bounceInUp" data-wow-delay="0.1s">
+    <div id="contact_section" class=" " data-wow-delay="0.1s">
         <div class="container">
-            <div class="p-2 bg-light rounded contact-form">
+            <div class="p-2 ">
                 <div class="row g-4">
                     <div class="col-12">
                         <small
@@ -508,10 +599,10 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid footer py-3 my-3 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container-fluid footer  my-3 mb-0 bg-light wow bounceInUp r-p-6" data-wow-delay="0.1s">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
+            <div class="row gap">
+                <div class="col-lg-3 col-md-6 mb-3">
                     <div class="footer-item">
                         <h1 class="text-brand">Vaigai<span class="text-dark">Catering</span></h1>
                         <p class="lh-lg mb-4">Delivering exceptional catering services for events of all sizes. Quality,
@@ -529,19 +620,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mb-3">
                     <div class="footer-item">
                         <h4 class="mb-4">Quick Links</h4>
                         <div class="d-flex flex-column align-items-start">
-                            <a class="text-body mb-2" href="#hero_section"><i class="fa fa-check text-brand me-2"></i>Home</a>
-                            <a class="text-body mb-2" href="#about_section"><i class="fa fa-check text-brand me-2"></i>About</a>
-                            <a class="text-body mb-2" href="#menu_section"><i class="fa fa-check text-brand me-2"></i>Menu</a>
-                            <a class="text-body mb-2" href="#why_us_section"><i class="fa fa-check text-brand me-2"></i>Why us</a>
-                            <a class="text-body mb-2" href="#contact_section"><i class="fa fa-check text-brand me-2"></i>Contact</a>
+                            <a class="text-body mb-2" href="#hero_section"><i
+                                    class="fa fa-check text-brand me-2"></i>Home</a>
+                            <a class="text-body mb-2" href="#about_section"><i
+                                    class="fa fa-check text-brand me-2"></i>About</a>
+                            <a class="text-body mb-2" href="#menu_section"><i
+                                    class="fa fa-check text-brand me-2"></i>Menu</a>
+                            <a class="text-body mb-2" href="#why_us_section"><i
+                                    class="fa fa-check text-brand me-2"></i>Why us</a>
+                            <a class="text-body mb-2" href="#contact_section"><i
+                                    class="fa fa-check text-brand me-2"></i>Contact</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mb-3">
                     <div class="footer-item">
                         <h4 class="mb-4">Contact Us</h4>
                         <div class="d-flex flex-column align-items-start">
@@ -591,25 +687,29 @@
 
 
     <!-- Copyright Start -->
-    <!-- <div class="container-fluid copyright bg-dark py-4">
+    <div class="container-fluid copyright bg-dark py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site
-                            Name</a>, All right reserved.</span>
+                    <span class="text-light"><a href="#"><i
+                                class="fas fa-copyright text-light me-2"></i>vaigaicaterings.com</a>, All right
+                        reserved.</span>
                 </div>
                 <div class="col-md-6 my-auto text-center text-md-end text-white">
-                    Designed By <a class="border-bottom" href="#">Mshahzad56</a>
+                    Designed By <a class="border-bottom" href="#">Chandru</a>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Back to Top -->
 
 
     <div id="chat-button" class="position-fixed bottom-0 end-0 m-4 ">
-        <button id="chat-toggle" class="btn btn-brand rounded-circle p-3">
+        <!-- <button id="chat-toggle" class="btn btn-brand rounded-circle p-3">
             <i class="bi bi-chat-dots"></i>
+        </button> -->
+        <button id="chat-toggle" class="btn btn-brand  me-2 rounded-circle">
+            <i class="bi bi-chat-dots" style="font-size: 1.5rem;"></i>
         </button>
         <div id="chat-popup"
             class="chat-popup position-absolute bottom-100 end-0 mb-2 bg-white rounded shadow p-3 hidden"
