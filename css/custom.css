@@ -1,0 +1,169 @@
+.chat-popup {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.chat-popup.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+/* .navbar-scroll {
+    transition: top 0.3s;
+} */
+
+.navbar-scroll {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-scroll.scrolled {
+    background-color: rgba(192, 192, 192, 0.9) !important;
+    /* Change to desired color */
+}
+
+/* Custom CSS for Timeline */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 2px;
+    background: rgba(var(--bs-primary-rgb), 0.2);
+    transform: translateX(-50%);
+}
+
+.timeline-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.hover-lift {
+    transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+}
+
+.process-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-number {
+        left: 20px;
+    }
+
+    .timeline-content {
+        margin-left: 50px;
+    }
+}
+
+/* Gradient Background */
+.bg-gradient {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.feature-card {
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #ff7f50;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.bg-brand {
+    background: #ff7f50;
+}
+
+.border-brand {
+    border-color: #ff7f50 !important
+}
+
+.text-brand {
+    color: #ff7f50;
+}
+
+.btn-brand {
+    color: #000;
+    background-color: #ff7f50;
+    border-color: #ff7f50
+}
+
+.btn-brand:hover {
+    color: #000;
+    background-color: #ff7f5092;
+    border-color: #ff7f50
+}
+
+.btn-check:focus+.btn-brand,
+.btn-brand:focus {
+    color: #000;
+    background-color: #ff7f5092;
+    border-color: #d8b072;
+    box-shadow: 0 0 0 .25rem rgba(180, 142, 83, .5)
+}
+
+.btn-check:checked+.btn-brand,
+.btn-check:active+.btn-brand,
+.btn-brand:active,
+.btn-brand.active,
+.show>.btn-brand.dropdown-toggle {
+    color: #000;
+    background-color: #ff7f5092;
+    border-color: #d8b072
+}
+
+.btn-check:checked+.btn-brand:focus,
+.btn-check:active+.btn-brand:focus,
+.btn-brand:active:focus,
+.btn-brand.active:focus,
+.show>.btn-brand.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .25rem rgba(180, 142, 83, .5)
+}
+
+.btn-brand:disabled,
+.btn-brand.disabled {
+    color: #000;
+    background-color: #d4a762;
+    border-color: #d4a762
+}
