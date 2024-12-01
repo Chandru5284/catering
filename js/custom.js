@@ -27,38 +27,6 @@ window.addEventListener('scroll', function () {
 });
 
 
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const sections = document.querySelectorAll("section");
-//     const navLinks = document.querySelectorAll(".nav-link");
-
-//     // Function to update active menu
-//     function updateActiveMenu() {
-//         let currentSection = "";
-
-//         // Loop through each section to find the one in view
-//         sections.forEach((section) => {
-//             const sectionTop = section.offsetTop - 70; // Adjust for navbar height
-//             const sectionHeight = section.offsetHeight;
-
-//             if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-//                 currentSection = section.getAttribute("id");
-//             }
-//         });
-
-//         // Update active class for the navbar links
-//         navLinks.forEach((link) => {
-//             link.classList.remove("active");
-//             if (link.getAttribute("href") === `#${currentSection}`) {
-//                 link.classList.add("active");
-//             }
-//         });
-//     }
-
-//     // Add scroll listener
-//     window.addEventListener("scroll", updateActiveMenu);
-// });
-
 function setActiveMenuItem(clickedItem) {
     const navLinks = document.querySelectorAll(".nav-link");
     navLinks.forEach((link) => {

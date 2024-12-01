@@ -55,7 +55,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .btn.btn-primary:hover {
     background: var(--bs-dark) !important;
-    color: var(--bs-primary) !important;
+    color: #ff7f50 !important;
 }
 
 .btn {
@@ -111,7 +111,9 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #ff7f50
+
+
 }
 
 .navbar .dropdown-toggle::after {
@@ -142,7 +144,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: #ff7f50;
     color: var(--bs-white);
 }
 
@@ -154,7 +156,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Events Start ***/
 .event .tab-class .nav-item a.active {
-    background: var(--bs-primary) !important;
+    background: #ff7f50 !important;
 }
 
 .event .event-img .event-overlay {
@@ -192,7 +194,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     top: 0;
     left: 0;
     bottom: auto;
-    background: var(--bs-primary);
+    background: #ff7f50;
     border-radius: 8px;
     transition: 1s;
 }
@@ -233,7 +235,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Menu Start ***/
 .menu .nav-item a.active {
-    background: var(--bs-primary) !important;
+    background: #ff7f50 !important;
 }
 
 .menu .menu-item .border-bottom {
@@ -280,7 +282,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     display: block;
     width: 100px;
     height: 100px;
-    background: var(--bs-primary);
+    background: #ff7f50;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -386,7 +388,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .blog-item:hover .blog-content a.btn h5 {
-    color: var(--bs-primary) !important;
+    color: #ff7f50 !important;
 }
 /*** Blog End ***/
 
@@ -418,7 +420,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .team-item:hover .team-content {
-    background: var(--bs-primary) !important;
+    background: #ff7f50 !important;
     color: var(--bs-dark) !important;
 }
 
@@ -439,7 +441,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** testimonial Start ***/
 .testimonial-item {
-    border: 1px solid var(--bs-primary);
+    border: 1px solid #ff7f50;
     padding: 20px 20px;
 }
 
@@ -464,7 +466,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 /*** Footer Start ***/
 .footer .footer-item a.text-body:hover {
-    color: var(--bs-primary) !important;
+    color: #ff7f50 !important;
 }
 /*** Footer End ***/
 

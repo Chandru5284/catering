@@ -17,9 +17,14 @@
 }
 
 .navbar-scroll.scrolled {
-    background-color: rgba(192, 192, 192, 0.9) !important;
+    background-color: #EEEDE7 !important;
     /* Change to desired color */
 }
+
+.active-brand {
+    color: #ff7f50;
+}
+
 
 /* Custom CSS for Timeline */
 .timeline::before {
@@ -29,7 +34,7 @@
     left: 50%;
     height: 100%;
     width: 2px;
-    background: rgba(var(--bs-primary-rgb), 0.2);
+    background: #ff7f50;
     transform: translateX(-50%);
 }
 
