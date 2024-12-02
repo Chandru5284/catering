@@ -13,7 +13,7 @@
 } */
 
 .navbar-scroll {
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
 }
 
 .navbar-scroll.scrolled {
@@ -136,7 +136,7 @@
 
 .btn-brand:hover {
     color: #000;
-    background-color: #ff7f5092;
+    background-color: #ff7f50cb;
     border-color: #ff7f50
 }
 
@@ -172,3 +172,59 @@
     background-color: #d4a762;
     border-color: #d4a762
 }
+
+
+.r-p-8 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.r-p-6 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.text-brand-2 {
+    color: #4B2D20;
+}
+
+.bg-braand-light {
+    background: #FFF5EE;
+}
+
+@media (min-width: 768px) {
+    .r-p-8 {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .r-p-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.a-r-m {
+    display: block;
+}
+
+.a-r-d {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .a-r-m {
+        display: none;
+    }
+
+    .a-r-d {
+        display: block;
+    }
+}
+
+/* @media (min-width: 1200px) {
+    .responsive-padding {
+        padding: 40px;
+        
+    }
+} */
